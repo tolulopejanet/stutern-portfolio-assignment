@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: rgb(51, 85, 148);
+    font-family: cursive;
+    margin: auto;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+h1{
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+.photo-intro, .about-list{
+    width: 95%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding-top: 50px;
+}
+div.intro-text{
+    line-height: 30px;
+}
+.image img{
+    width: 250px;
+    height: 250px;
+    margin-right: 40px;
+}
+.about-list{
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+.about-me{
+    line-height: 25px;
+    width: 68%;
+}
+.skill-list{
+    width: 30%;
+    margin-top: 50px;
+}
+.skill-list ul{
+    display: flex;
+    margin-bottom: 20px;
+}
+.skill-list ul li{
+    width: 130px;
+    height: 30px;
+    border: 1px solid rgb(83, 74, 74);
+    list-style-type: none;
+    text-align: center;
+    border-radius: 30%;
+    padding-top: 5px;
+}
+.skill-list ul li:nth-child(1){
+    margin-right: 50px;
+}
